@@ -1,0 +1,134 @@
+.navbar-container{
+    padding-top: 10px;
+}
+.nav-list li,.nav-list li a{
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.nav-list>li a>.arrow{
+    line-height: 78px;
+}
+#sidebar .nav > li > a{
+    padding: 0px !important;
+    background-color: white;
+    color: darkred;
+}
+.page-header{
+    margin: 5px 0px 10px;
+}
+.admin-btn{
+    margin-left: 15px !important;
+}
+.btn-group{
+    margin-bottom: 20px;
+}
+.btn-group>.btn, .btn-group+.btn{
+    border-width:1px;
+    border-radius: 5px !important;
+}
+.grid-view .filters{
+   background-color: white;
+    background-image: none;
+}
+.grid-view th:first-child{
+    /*width: 40px;*/
+}
+.grid-view th{
+    /*width: 100px;*/
+    text-align: center;
+    font-size: 10px;
+}
+.grid-view th:last-child{
+    width: 50px;
+}
+.grid-view td{
+    text-align: center !important;
+    vertical-align: middle;
+    height: 35px;
+    line-height: 35px!important;
+}
+.grid-view td:last-child a{
+    margin-left: 5px;
+}
+.light-blue a{
+    padding: 0 15px !important;
+}
+#navbar{
+    background-image:none;
+    height: 85px;
+    line-height: 85px;
+    background-color: white;
+}
+#logo{
+    /*color: white;*/
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: black;
+}
+.navbar{
+    /*margin-bottom: 10px;*/
+}
+.navbar .navbar-brand{
+    padding-top: 0px;
+}
+.nav-list>li>a{
+    background-color: white;
+}
+.panel-default{
+    border: 0px;
+}
+.panel-body{
+    padding:0px;
+}
+table thead tr th,table tr td{
+    text-align: center;
+}
+.panel-default{
+    overflow: auto;
+}
+*{
+    font-size: 10px;
+}
+.page-content{
+    padding:0px 15px;
+}
+.pagination{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.sidebar{
+    /*background-color: red;*/
+}
+.title{
+    color: white;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+table thead tr:first-child{
+    /*background-image:none;*/
+    /*background-color: #decfee;*/
+    /*color: white;*/
+    height: 40px;
+}
+.error{
+    color: red;
+}
+/*.checkDivList{*/
+    /*background-color: #00b4ef;*/
+/*}*/
+#checkList label{
+    margin-top: 10px;
+    width: 20%;
+    float: left;
+    /*height: 50px;*/
+}
+.ace-nav{
+    padding-top: 9px;
+}
+.li-selected>li{
+    border-bottom: 1px solid #DDDDDD!important;
+    margin: 5px 0;
+}

@@ -1,0 +1,112 @@
+.sel-wrap{
+    width: 100%;
+    overflow: hidden;
+
+}
+.sel-item{
+    width: 50%;
+    float: left;
+    padding: 30px;
+}
+.sel-item>div{
+    border: 1px solid 	#ddd;
+    overflow: hidden;
+    padding: 15px;
+    margin-top: -30px;
+    width: 99.2%;
+    margin-left: 4px;
+}
+.sel-item ul{
+    overflow: hidden;
+    padding-left: 6px;
+}
+.sel-item li {
+    float: left;
+    width: 105px;
+    line-height:32px;
+    margin-right: 10px;
+}
+.sel-nav>ul{
+    border-bottom: 1px solid #ddd;
+}
+.sel-navv>ul{
+    border-bottom: 1px solid #ddd;
+}
+.sel-item>ul{
+    padding: 12px 6px;
+}
+#container1 .sel-item ul{
+    background: #fff;
+}
+.check{
+    width: 16px;
+    height: 16px;
+    vertical-align: -2px;
+}
+.nav-tabs > li > a{
+    border: 0;
+}
+.sel-con {
+    display: none;
+}
+.sel-conn{
+    display: none;
+}
+.seven{
+    -webkit-box-shadow: 0 2px 16px 0 #ccc;
+    -moz-box-shadow: 0 2px 16px 0 #ccc;
+    -o-box-shadow: 0 2px 16px 0 #ccc;
+    box-shadow: 0 2px 16px 0 #ccc;
+}
+.content-wrap{
+    white-space: nowrap;
+}
+.content1>div,.content2>div{
+    display: inline-block;
+}
+
+
+/*月报/季报*/
+.report table{
+
+}
+.report table tr td:last-child span a:first-child{
+    background:#3492FF;
+    color:#fff;
+}
+.report table tr{
+    height:35px;
+}
+.report table tr:nth-of-type(odd){
+    background-color: #F7F7F7;
+}
+.report table tr td:first-child{
+    padding-left: 15px;
+}
+.report table tr td:last-child{
+    text-align: right;
+}
+.report table tr td:last-child span a{
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 28px;
+    margin-right: 35px;
+    color: #0b6cbc;
+    -webkit-border-radius:28px;
+    -moz-border-radius:28px;
+    border-radius:28px;
+    background-color: transparent;
+}
+.report table tr td:last-child span a:active{
+    color: #fff;
+    background-color: #0b6cbc;
+}
+.report a:hover,.report a:focus{
+    text-decoration: none;
+}
+.ppp{
+    border:none;
+}
+.morengyangshi{
+
+}

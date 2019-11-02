@@ -1,0 +1,328 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.container,#page{
+    background-color: #DEDEDE !important;
+}
+ul {
+    margin-bottom: 0px !important;
+}
+
+li {
+    list-style: none;
+}
+
+table {
+    margin-bottom: 0px;
+}
+
+.container-fluid {
+    height: 70px;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.header-logo img {
+    float: left;
+    margin-right: 15px;
+}
+
+.header-logo span {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    line-height: 70px;
+}
+
+.search span {
+    padding-top: 1px;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right li {
+    font-size: 16px;
+    color: white;
+    margin-right: 30px;
+    border-radius: 15px;
+    line-height: 70px;
+    position: relative;
+    cursor: pointer;
+    float: left;
+}
+
+.dropup, .dropdown {
+    position: relative;
+    height: 50px;
+}
+
+.changeRed {
+    color: white;
+}
+
+.market-bottom {
+    height: 150px;
+}
+
+.market-bottom-div {
+    text-align: center;
+    color: #FCC500;
+    font-size: 18px;
+    font-weight: bold;
+    /*padding-top: 105px;*/
+}
+.market-bottom-div>div:nth-child(2){
+    padding-top: 50px;
+}
+.main-list {
+    background-color: white;
+    color: red;
+    padding: 10px 0;
+    line-height: 30px;
+    font-size: 15px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.main-list td {
+    text-align: center;
+    font-weight: bold;
+    width: 12.5%;
+}
+
+.list-one {
+    margin-top: 10px;
+    background-color: white;
+    color: #577084;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.list-one-table tr {
+    height: 50px;
+    background-color: white;
+}
+
+.list-one-table tr td {
+    text-align: center;
+    width: 12.5%;
+}
+
+.list-one-table tr td:nth-child(2) {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.list-one-table tr td:first-child {
+    font-weight: bold;
+}
+
+.first td:first-child {
+    font-size: 16px;
+    color: #FFCC00;
+    font-weight: bold;
+    background: url(../images/crown.png) 67% 0% no-repeat;
+}
+
+.first td {
+    font-size: 17px;
+    color: #333;
+}
+
+.second td:first-child {
+    color: #C1C1C1;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.third td:first-child {
+    color: #D6A256;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.rborder{
+    content:'';
+    width: 85.7%;
+    position: absolute;
+    height: 50px;
+    border: 1px solid #FFCC00;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    right: 0;
+    top: 0;
+    display: none;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.left-table {
+    float: left;
+    width: 87.5%;
+    position: relative;
+    padding: 10px 0;
+}
+
+.last-td {
+    float: left;
+    width: 12.5%;
+    background-color: white;
+    text-align: center;
+}
+
+.total_score {
+    border: 1px solid #577084;
+    border-radius: 15px;
+    padding: 5px 25px 5px 25px;
+    color: #577084;
+    font-size: 14px;
+}
+
+.first_score{
+    font-size: 16px;
+}
+
+.total_score:link {
+    text-decoration: none; /* 指正常的未被访问过的链接*/
+    color: #577084;
+}
+
+.total_score:visited {
+    text-decoration: none; /*指已经访问过的链接*/
+    color: #577084;
+}
+
+.total_score:hover {
+    text-decoration: none; /*指鼠标在链接*/
+    background-color: red;
+    color: white;
+}
+
+.total_score:active {
+    text-decoration: none; /* 指正在点的链接*/
+    color: #577084;
+}
+.dropdown-menu{
+    min-width: 0 !important;
+    padding: 0 !important;
+}
+.sorts{
+    padding: 8px 14px;
+    border-radius: 35px;
+}
+.sorts.active{
+    border: 1px solid #ff0000;
+}
+.ver{
+    vertical-align: -1px;
+}
+
+.score-detail{
+    padding: 3px 6px;
+    border-radius: 20px;
+    background: #ff0000;
+    color: #fff;
+    font-size: 10px;
+    margin-left: 4px;
+}
+.score-detail:hover{
+    color: #fff;
+}
+.main-list>div{
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    width: 11.111%;
+}
+.market-main .mark-ma div,.group{
+    height: 45px;
+    line-height: 45px;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    width: 12.5%;
+    background-color: white;
+}
+/*.market{*/
+    /*background-color: white;*/
+/*}*/
+.market div{
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    text-align: center;
+    /*font-weight: bold;*/
+    width: 12.5%;
+    background-color: white;
+}
+.aaa{
+    float: left;
+    margin-bottom: 10px;
+    width: 88.889%;
+    background-color: white;
+}
+.last-market{
+    float: right;
+    width: 11.111%;
+    background-color: white;
+    text-align: center;
+}
+.market div:first-child,.market div:nth-child(2){
+    font-size: 14px;
+    font-weight: bold;
+    color: #577084;
+}
+.first{
+    padding: 10px 0;
+}
+.first div:first-child {
+    font-size: 16px;
+    color: #FFCC00;
+    font-weight: bold;
+    background: url(../images/crown.png) 67% 0% no-repeat;
+}
+.first div:nth-child(2),.TierBSecond div:nth-child(2){
+    border-left:1px solid #FFCC00;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.first div:not(:first-child),.TierBSecond div:not(:first-child){
+    border-top: 1px solid #FFCC00;
+    border-bottom: 1px solid #FFCC00;
+}
+.first div:last-child,.TierBSecond div:last-child{
+    border-right:1px solid #FFCC00;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.second div:first-child {
+    color: #C1C1C1;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.third div:first-child {
+    color: #D6A256;
+    font-weight: bold;
+    font-size: 16px;
+}
+.TierBSecond{
+    margin-top: 45px;
+}
+.export-mar{
+    overflow:hidden;
+}
+.market-export{
+    cursor: pointer;
+    position: absolute;
+    height: 20px;
+    padding-right: 24px;
+    /*top: 0;*/
+    right: 0 !important;;
+    z-index: 80;
+    background: url('img/ex.png') center right/20px 20px no-repeat;
+    color: #777;
+}

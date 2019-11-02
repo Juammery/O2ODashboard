@@ -1,0 +1,148 @@
+.container-fluid {
+    background: white;
+}
+
+.container-fluid #navbar-collapse {
+    background-color: white !important;
+}
+
+.navbar-right > li {
+    /*padding: 25px;*/
+}
+
+.navbar-header, .navbar-right, .navbar-right > li {
+    height: 70px;
+}
+
+.navbar-right > li {
+    line-height: 70px;
+    padding: 0 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*统一代码*/
+.screen, .chart, .sku_sum {
+    background-color: white;
+    width: 98.5%;
+    margin: 15px auto;
+    border-radius: 15px;
+}
+
+/*筛选*/
+.screen {
+    height: 70px;
+    line-height: 70px;
+}
+
+.screen > div:first-child {
+    font-size: 18px;
+    color: #F2A000;
+    font-weight: bolder;
+}
+
+.screen > div:first-child > span {
+    padding: 0 30px;
+    color: #CCCCCC;
+}
+
+.screen > div > span {
+    color: #577182;
+}
+.screen .form-group{
+    width: 100%;
+}
+.screen-select {
+    min-width: 80px;
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #CCCCCC;
+    color: #95ACBC;
+    cursor: pointer;
+}
+
+/*图表*/
+.chart {
+    text-align: center;
+    height: 500px;
+}
+
+.chart-div {
+    width: 20%;
+    margin: auto;
+    /*overflow: hidden;*/
+    /*overflow-x: scroll;*/
+}
+
+/*sku数量*/
+ .sku_sum{
+     min-height: 400px;
+ }
+.sum_title, .chart-title {
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 15px 0;
+    letter-spacing: 2px;
+}
+
+.sum_details {
+    margin: auto;
+}
+
+.specific-div {
+    width: 85%;
+    margin: auto;
+}
+
+.specific-title {
+    color: #477ED9;
+    font-size: 16px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    padding: 10px 0;
+}
+
+.specific-title > img {
+    padding-right: 10px;
+}
+
+.specific-div > table {
+}
+
+.specific-div > table > tbody > tr > td {
+    border: 1px solid #CCCCCC;
+    text-align: center;
+    padding: 10px 0;
+    color: #667E8A;
+}
+
+.specific-div > table > tbody > tr:first-child {
+    background-color: #E6EBEE;
+}
+
+/*@media screen  and (min-width: 1135px) and (max-width: 1170px) {*/
+    /*.chart-div {*/
+        /*width: 70%;*/
+        /*!*overflow-x:hidden;*!*/
+    /*}*/
+/*}*/
+
+/*@media screen  and (min-width: 1171px) and (max-width: 1300px) {*/
+    /*.chart-div {*/
+        /*width: 70%;*/
+        /*!*overflow-x:hidden;*!*/
+    /*}*/
+/*}*/
+
+/*@media screen  and (min-width: 1300px) {*/
+    /*.chart-div {*/
+        /*width: 42%;*/
+        /*!*overflow-x:hidden;*!*/
+    /*}*/
+/*}*/
+#form{
+    padding-top: 0 !important;
+}
